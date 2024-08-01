@@ -1,0 +1,51 @@
+{
+  "artworks": [
+    {
+      "id": 1,
+      "title": "Sunset",
+      "description": "An abstract painting of a sunset.",
+      "price": 150.0,
+      "imageUrl": "http://example.com/sunset.jpg",
+      "artistId": 1
+    },
+    {
+      "id": 2,
+      "title": "Dreamscape",
+      "description": "A surreal digital painting.",
+      "price": 200.0,
+      "imageUrl": "http://example.com/dreamscape.jpg",
+      "artistId": 2
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "bio": "A contemporary artist known for abstract paintings."
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "bio": "A digital artist specializing in surreal landscapes."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "artlover123",
+      "email": "artlover@example.com"
+    },
+    {
+      "id": 2,
+      "username": "collector42",
+      "email": "collector@example.com"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "userId": 1,
+      "artworkId": 1
+    }
+  ]
+}
