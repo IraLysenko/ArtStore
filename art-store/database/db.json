@@ -4,7 +4,9 @@
       "id": "1",
       "name": "Claude Monet",
       "bio": "Claude Monet was a French painter, a founder of French Impressionist painting and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature.",
-      "artworks": ["1"]
+      "artworks": [
+        "1"
+      ]
     },
     {
       "id": "2",
@@ -24,26 +26,26 @@
     }
   ],
   "artworks": [
-      {
-        "id": "1",
-        "title": "Water Lilies",
-        "description": "A series of approximately 250 oil paintings depicting Monet's flower garden at Giverny.",
-        "price": 1000000,
-        "imageUrl": "https://example.com/water-lilies.jpg"
-      },
-      {
+    {
+      "id": "1",
+      "title": "Water Lilies",
+      "description": "A series of approximately 250 oil paintings depicting Monet's flower garden at Giverny.",
+      "price": 1000000,
+      "imageUrl": "https://example.com/water-lilies.jpg"
+    },
+    {
       "id": "2",
       "title": "Dance at Le Moulin de la Galette",
       "description": "One of Impressionism's most celebrated masterpieces, depicting a lively outdoor scene in Montmartre.",
       "price": 800000,
       "imageUrl": "https://example.com/dance-at-le-moulin.jpg"
-      },
-      {
-        "id": "3",
-        "title": "Olympia",
-        "description": "One of Manet's most famous paintings, causing controversy when first exhibited in 1865.",
-        "price": 1200000,
-        "imageUrl": "https://example.com/olympia.jpg"
-      }
+    },
+    {
+      "id": "3",
+      "title": "Olympia",
+      "description": "One of Manet's most famous paintings, causing controversy when first exhibited in 1865.",
+      "price": 1200000,
+      "imageUrl": "https://example.com/olympia.jpg"
+    }
   ]
 }

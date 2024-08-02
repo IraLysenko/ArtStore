@@ -59,7 +59,7 @@ const typeDefs = gql`
   input CreateArtworkInput {
     title: String!
     description: String
-    artistId: ID!
+    artist: CreateArtistInput
   }
 
   # Define response type for creating an artwork
