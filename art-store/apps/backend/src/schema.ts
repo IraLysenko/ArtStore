@@ -14,6 +14,7 @@ const typeDefs = gql`
   type Artist {
     id: ID!                 # Unique identifier for the artist
     name: String!           # Name of the artist
+    nameBig: String           # Name of the artist
     biography: String       # Biography of the artist
     artworks: [Artwork!]   # List of artworks created by the artist
   }

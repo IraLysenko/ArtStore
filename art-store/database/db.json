@@ -4,28 +4,14 @@
       "id": "1",
       "name": "Claude Monet",
       "bio": "Claude Monet was a French painter, a founder of French Impressionist painting and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature.",
-      "artworks": [
-        {
-          "id": "1",
-          "title": "Water Lilies",
-          "description": "A series of approximately 250 oil paintings depicting Monet's flower garden at Giverny.",
-          "price": 1000000,
-          "imageUrl": "https://example.com/water-lilies.jpg"
-        }
-      ]
+      "artworks": ["1"]
     },
     {
       "id": "2",
       "name": "Pierre-Auguste Renoir",
       "bio": "Renoir was a leading painter in the development of the Impressionist style, celebrated for his vibrant light and saturated color.",
       "artworks": [
-        {
-          "id": "2",
-          "title": "Dance at Le Moulin de la Galette",
-          "description": "One of Impressionism's most celebrated masterpieces, depicting a lively outdoor scene in Montmartre.",
-          "price": 800000,
-          "imageUrl": "https://example.com/dance-at-le-moulin.jpg"
-        }
+        "2"
       ]
     },
     {
@@ -33,112 +19,31 @@
       "name": "Édouard Manet",
       "bio": "Édouard Manet was a pivotal figure in the transition from Realism to Impressionism.",
       "artworks": [
-        {
-          "id": "3",
-          "title": "Olympia",
-          "description": "One of Manet's most famous paintings, causing controversy when first exhibited in 1865.",
-          "price": 1200000,
-          "imageUrl": "https://example.com/olympia.jpg"
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Edgar Degas",
-      "bio": "Degas is famous for his paintings, sculptures, prints, and drawings. He is especially identified with the subject of dance.",
-      "artworks": [
-        {
-          "id": "4",
-          "title": "The Ballet Class",
-          "description": "Depicting ballerinas in rehearsal, it's one of Degas's most iconic works.",
-          "price": 950000,
-          "imageUrl": "https://example.com/the-ballet-class.jpg"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Camille Pissarro",
-      "bio": "Pissarro was a Danish-French Impressionist and Neo-Impressionist painter born on the island of St Thomas.",
-      "artworks": [
-        {
-          "id": "5",
-          "title": "The Boulevard Montmartre at Night",
-          "description": "One of Pissarro's masterpieces, showcasing his innovative approach to urban scenes.",
-          "price": 700000,
-          "imageUrl": "https://example.com/boulevard-montmartre.jpg"
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Mary Cassatt",
-      "bio": "Cassatt was an American painter and printmaker who was an active member of the Impressionists in Paris.",
-      "artworks": [
-        {
-          "id": "6",
-          "title": "The Child's Bath",
-          "description": "One of Cassatt's most famous works, focusing on the theme of the intimate bonds between mothers and children.",
-          "price": 600000,
-          "imageUrl": "https://example.com/the-childs-bath.jpg"
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Alfred Sisley",
-      "bio": "Sisley was an Impressionist landscape painter who was born and spent most of his life in France, but retained British citizenship.",
-      "artworks": [
-        {
-          "id": "7",
-          "title": "The Bridge at Villeneuve-la-Garenne",
-          "description": "A beautiful portrayal of the Seine river, showcasing Sisley's masterful use of light and color.",
-          "price": 500000,
-          "imageUrl": "https://example.com/bridge-villeneuve.jpg"
-        }
-      ]
-    },
-    {
-      "id": "8",
-      "name": "Berthe Morisot",
-      "bio": "Morisot was a member of the circle of painters in Paris who became known as the Impressionists.",
-      "artworks": [
-        {
-          "id": "8",
-          "title": "The Cradle",
-          "description": "An intimate depiction of maternal love, reflecting Morisot's delicate touch.",
-          "price": 450000,
-          "imageUrl": "https://example.com/the-cradle.jpg"
-        }
-      ]
-    },
-    {
-      "id": "9",
-      "name": "Gustave Caillebotte",
-      "bio": "Caillebotte was a French painter, member and patron of the artists known as Impressionists.",
-      "artworks": [
-        {
-          "id": "9",
-          "title": "Paris Street; Rainy Day",
-          "description": "A masterpiece of urban Impressionism, capturing the essence of a rainy day in Paris.",
-          "price": 1100000,
-          "imageUrl": "https://example.com/paris-rainy-day.jpg"
-        }
-      ]
-    },
-    {
-      "id": "10",
-      "name": "Paul Cézanne",
-      "bio": "Cézanne was a French artist and Post-Impressionist painter whose work laid the foundations of the transition from 19th-century Impressionism to a new and radically different world of art in the 20th century.",
-      "artworks": [
-        {
-          "id": "10",
-          "title": "The Card Players",
-          "description": "One of Cézanne's most famous series, depicting Provençal peasants immersed in card games.",
-          "price": 1500000,
-          "imageUrl": "https://example.com/the-card-players.jpg"
-        }
+        "3"
       ]
     }
+  ],
+  "artworks": [
+      {
+        "id": "1",
+        "title": "Water Lilies",
+        "description": "A series of approximately 250 oil paintings depicting Monet's flower garden at Giverny.",
+        "price": 1000000,
+        "imageUrl": "https://example.com/water-lilies.jpg"
+      },
+      {
+      "id": "2",
+      "title": "Dance at Le Moulin de la Galette",
+      "description": "One of Impressionism's most celebrated masterpieces, depicting a lively outdoor scene in Montmartre.",
+      "price": 800000,
+      "imageUrl": "https://example.com/dance-at-le-moulin.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Olympia",
+        "description": "One of Manet's most famous paintings, causing controversy when first exhibited in 1865.",
+        "price": 1200000,
+        "imageUrl": "https://example.com/olympia.jpg"
+      }
   ]
 }

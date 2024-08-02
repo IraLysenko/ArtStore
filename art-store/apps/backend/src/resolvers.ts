@@ -1,9 +1,5 @@
 const resolvers = {
   Query: {
-    // Fetch all artworks
-    artworks:  (_, __, { dataSources }) => {
-      return dataSources.jsonServerAPI.getArtworks();
-    },
     // Fetch a single artwork by ID
     artwork: (_, { id }, { dataSources }) => {
       return dataSources.jsonServerAPI.getArtworkById(id);
@@ -12,6 +8,10 @@ const resolvers = {
     artists:  (_, __, { dataSources }) => {
       return  dataSources.jsonServerAPI.getArtists();
     },
+    // Fetch all artworks
+    artworks:  (_, __, { dataSources }) => {
+      return dataSources.jsonServerAPI.getArtworks();
+    },
     // Fetch a single artist by ID
     artist:  (_, { id }, { dataSources }) => {
       return  dataSources.jsonServerAPI.getArtistById(id);
@@ -19,7 +19,7 @@ const resolvers = {
   },
   Mutation: {
     // Create a new artwork
-    createArtwork: async (_, { input }, { dataSources }) => {
+    createArtwork: async (_, { input }, {dataSources: dataSources}) => {
       try {
         const artwork = await dataSources.jsonServerAPI.postArtwork(input);
         return {
@@ -132,14 +132,16 @@ const resolvers = {
   Artist: {
     // Resolve artworks field for Artist
     artworks:  (parent, _, { dataSources }) => {
-      dataSources.jsonServerAPI.getArtworksByArtistId(parent.id);
+       return parent.artworks.map((artworkId) => dataSources.jsonServerAPI.getArtworkById(artworkId))
     },
+    //exercise for the field level resolver
+    nameBig: (parent) => { return parent.name.toUpperCase() },
   },
   Artwork: {
     // Resolve artist field for Artwork
     artist:  (parent, _, { dataSources }) => {
       return  dataSources.jsonServerAPI.getArtistById(parent.artistId);
-    },
+    }
   },
 };
 
