@@ -1,14 +1,30 @@
-import express from 'express';
+import { ApolloServer } from '@apollo/server';
+import { startStandaloneServer } from '@apollo/server/standalone';
+import typeDefs from "./schema";
+import resolvers from "./resolvers";
 
-const host = process.env.HOST ?? 'localhost';
-const port = process.env.PORT ? Number(process.env.PORT) : 3000;
+const JSONServerAPI = require("./datasources/json-server-api");
 
-const app = express();
+async function startApolloServer() {
+  const server = new ApolloServer({ typeDefs, resolvers });
+  const { url } = await startStandaloneServer(server, {
+    context: async () => {
+      const { cache } = server;
 
-app.get('/', (req, res) => {
-  res.send({ message: 'Hello API' });
-});
+      return {
+        dataSources: {
+          jsonServerAPI: new JSONServerAPI({ cache }),
+        },
+      };
+    },
+  });
+  console.log(`
+    🚀  Server is running
+    📭  Query at ${url}
+  `);
+}
 
-app.listen(port, host, () => {
-  console.log(`[ ready ] http://${host}:${port}`);
-});
+ startApolloServer();
+
+
+
