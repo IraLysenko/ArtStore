@@ -6,7 +6,7 @@ class JSONServerAPI extends RESTDataSource {
 
   // Fetch all artworks from the JSON server
   getArtworks() {
-    return this.get('artworks');
+    return this.get('artworks/');
   }
 
   // Fetch a single artwork by ID
@@ -16,12 +16,13 @@ class JSONServerAPI extends RESTDataSource {
 
   // Create a new artwork
   postArtwork(data) {
-    return this.post('artworks', data);
+    console.log('input__', data)
+    return this.post('artworks', {body: {...data}});
   }
 
   // Update an existing artwork by ID
   patchArtwork(id, data) {
-    return this.patch(`artworks/${id}`, data);
+    return this.patch(`artworks/${id}`, {body: {...data}});
   }
 
   // Delete an artwork by ID
@@ -41,12 +42,12 @@ class JSONServerAPI extends RESTDataSource {
 
   // Create a new artist
   postArtist(data) {
-    return this.post('artists', data);
+    return this.post('artists', {body: {...data}});
   }
 
   // Update an existing artist by ID
   patchArtist(id, data) {
-    return this.patch(`artists/${id}`, data);
+    return this.patch(`artists/${id}`, {body: {...data}});
   }
 
   // Delete an artist by ID

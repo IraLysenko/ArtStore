@@ -23,6 +23,11 @@
       "artworks": [
         "3"
       ]
+    },
+    {
+      "id": "d15e",
+      "name": "test artist",
+      "biography": "test artist bio"
     }
   ],
   "artworks": [
@@ -46,6 +51,16 @@
       "description": "One of Manet's most famous paintings, causing controversy when first exhibited in 1865.",
       "price": 1200000,
       "imageUrl": "https://example.com/olympia.jpg"
+    },
+    {
+      "id": "f510",
+      "title": "test artwork",
+      "description": "descr"
+    },
+    {
+      "id": "3ad9",
+      "title": "test artwork2",
+      "description": "descr"
     }
   ]
 }

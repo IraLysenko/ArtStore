@@ -1,8 +1,7 @@
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
-import typeDefs from "./schema";
-import resolvers from "./resolvers";
-
+const typeDefs = require("./schema");
+const resolvers = require("./resolvers");
 const JSONServerAPI = require("./datasources/json-server-api");
 
 async function startApolloServer() {
