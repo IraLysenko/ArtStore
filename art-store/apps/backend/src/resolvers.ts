@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 const resolvers = {
   Query: {
     // Fetch a single artwork by ID
@@ -23,13 +25,19 @@ const resolvers = {
     createArtwork: async (_, { input }, { dataSources }) => {
       console.log("Input received:", input);
       try {
+        const artistId = uuidv4(); // Generate a unique artistId
+
         const artwork = await dataSources.jsonServerAPI.postArtwork(input);
+        const newArtwork = {
+          ...artwork,
+          artistId,  // Automatically set the artistId
+        };
         console.log("Artwork created:", artwork);
         return {
           code: 201,
           success: true,
           message: 'Artwork created successfully',
-          artwork,
+          newArtwork,
         };
       } catch (error) {
         console.error("Error creating artwork:", error);
@@ -144,7 +152,6 @@ const resolvers = {
   Artwork: {
     // Resolve artist field for Artwork
     artist:  (parent, _, { dataSources }) => {
-      console.log('parent', parent)
       return  dataSources.jsonServerAPI.getArtistById(parent.artistId);
     }
   },
