@@ -10,6 +10,7 @@ export const GET_ARTWORKS = gql`
       imageUrl
       price
       artist {
+        id
         name
         biography
       }
@@ -45,6 +46,7 @@ export const GET_ARTISTS = gql`
       artworks {
         id
         title
+        imageUrl
       }
     }
   }
@@ -65,3 +67,4 @@ export const GET_ARTIST = gql`
     }
   }
 `;
+
