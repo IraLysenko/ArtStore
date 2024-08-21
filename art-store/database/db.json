@@ -3,31 +3,20 @@
     {
       "id": "1",
       "name": "Claude Monet",
-      "bio": "Claude Monet was a French painter, a founder of French Impressionist painting and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature.",
-      "artworks": [
-        "1"
-      ]
+      "biography": "Claude Monet was a French painter, a founder of French Impressionist painting and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature.",
+      "artworks": ["1", "4", "5"]
     },
     {
       "id": "2",
       "name": "Pierre-Auguste Renoir",
-      "bio": "Renoir was a leading painter in the development of the Impressionist style, celebrated for his vibrant light and saturated color.",
-      "artworks": [
-        "2"
-      ]
+      "biography": "Renoir was a leading painter in the development of the Impressionist style, celebrated for his vibrant light and saturated color.",
+      "artworks": ["2", "6"]
     },
     {
       "id": "3",
-      "name": "Édouard Manet",
-      "bio": "Édouard Manet was a pivotal figure in the transition from Realism to Impressionism.",
-      "artworks": [
-        "3"
-      ]
-    },
-    {
-      "id": "d15e",
-      "name": "test artist",
-      "biography": "test artist bio"
+      "name": "Camille Pissarro",
+      "biography": "A key Impressionist painter, Camille Pissarro was known for his landscapes and contributions to both Impressionism and Post-Impressionism.",
+      "artworks": ["3", "7", "8"]
     }
   ],
   "artworks": [
@@ -36,31 +25,64 @@
       "title": "Water Lilies",
       "description": "A series of approximately 250 oil paintings depicting Monet's flower garden at Giverny.",
       "price": 1000000,
-      "imageUrl": "https://example.com/water-lilies.jpg"
+      "imageUrl": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+      "artistId": "1"
     },
     {
       "id": "2",
       "title": "Dance at Le Moulin de la Galette",
       "description": "One of Impressionism's most celebrated masterpieces, depicting a lively outdoor scene in Montmartre.",
       "price": 800000,
-      "imageUrl": "https://example.com/dance-at-le-moulin.jpg"
+      "imageUrl": "https://www.meisterdrucke.uk/kunstwerke/1260px/Pierre_Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_(MeisterDrucke-1466458).jpg",
+      "artistId": "2"
     },
     {
       "id": "3",
-      "title": "Olympia",
-      "description": "One of Manet's most famous paintings, causing controversy when first exhibited in 1865.",
+      "title": "The Boulevard Montmartre on a Winter Morning",
+      "description": "This painting captures the bustling activity of the Paris streets with the soft winter light filtering through the trees.",
+      "price": 950000,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/The_Boulevard_Montmartre_on_a_Winter_Morning.JPG/800px-The_Boulevard_Montmartre_on_a_Winter_Morning.JPG",
+      "artistId": "3"
+    },
+    {
+      "id": "4",
+      "title": "Impression, Sunrise",
+      "description": "The painting that gave Impressionism its name, Monet's depiction of the Le Havre port is atmospheric and groundbreaking.",
+      "price": 1100000,
+      "imageUrl": "https://1.bp.blogspot.com/-hTNqZh7K9Mk/VMZfMMzemvI/AAAAAAAAEhQ/SBwJkc8JvXE/w1200-h630-p-k-no-nu/sunrise.jpg",
+      "artistId": "1"
+    },
+    {
+      "id": "5",
+      "title": "Garden at Sainte-Adresse",
+      "description": "Monet's 1867 work featuring a vibrant garden and the sea in the background, showcasing his early development of the Impressionist style.",
       "price": 1200000,
-      "imageUrl": "https://example.com/olympia.jpg"
+      "imageUrl": "https://travelmate.tech/media/images/cache/new_york_metropolitan_museum_of_art_06_terrazza_a_sainte_adresse_jpg_1920_1080_cover_70.jpg",
+      "artistId": "1"
     },
     {
-      "id": "f510",
-      "title": "test artwork",
-      "description": "descr"
+      "id": "6",
+      "title": "Le déjeuner des canotiers",
+      "description": "Renoir's depiction of a leisurely lunch by a group of Renoir's friends is a snapshot of life with vibrant light and color.",
+      "price": 850000,
+      "imageUrl": "https://www.francetvinfo.fr/pictures/M_2ZMTGSfQspCOloUKr9odhcwTU/70x0:1208x640/2656x1494/filters:format(avif):quality(50)/2019/04/11/vlcsnap-2018-08-11-12h16m41s871.png",
+      "artistId": "2"
     },
     {
-      "id": "3ad9",
-      "title": "test artwork2",
-      "description": "descr"
+      "id": "7",
+      "title": "Orchard in Bloom, Louveciennes",
+      "description": "Showcasing Pissarro's love for nature, this painting features a lush orchard in full bloom, representing the essence of rural life.",
+      "price": 900000,
+      "imageUrl": "https://d7hftxdivxxvm.cloudfront.net/?height=655&quality=85&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FEsccq4NdPu9tmTBpBN4PWA%2Fnormalized.jpg&width=800",
+      "artistId": "3"
+    },
+    {
+      "id": "8",
+      "title": "Red Roofs, Corner of a Village, Winter",
+      "description": "This work captures the vivid colors of a rustic village scene under a winter sky, showcasing Pissarro's skill in landscape painting.",
+      "price": 925000,
+      "imageUrl": "https://www.camillepissarro.org/assets/img/paintings/the-red-roofs-a-corner-of-a-village-winter-effect.jpg",
+      "artistId": "3"
     }
   ]
 }

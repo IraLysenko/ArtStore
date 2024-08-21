@@ -139,7 +139,7 @@ const resolvers = {
        return parent.artworks.map((artworkId) => dataSources.jsonServerAPI.getArtworkById(artworkId))
     },
     //exercise for the field level resolver
-    nameBig: (parent) => { return parent.name.toUpperCase() },
+    //nameBig: (parent) => { return parent.name.toUpperCase() },
   },
   Artwork: {
     // Resolve artist field for Artwork

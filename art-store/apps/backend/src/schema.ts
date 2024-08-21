@@ -10,23 +10,24 @@ const typeDefs = gql`
     "Description of the artwork"
     description: String
     "The ID of the artist who created the artwork"
-    artistId: ID!
+    artistId: ID
     "The artist who created the artwork"
     artist: Artist
     "The price of the artwork"
     price: Int
+    "URL for the artwork image"
+    imageUrl: String
   }
 
   "Define the Artist type"
   type Artist {
-    id: ID!
     "Unique identifier for the artist"
+    id: ID!
+    "Name of the artist"
     name: String!
-    "Name of the artist"
-    nameBig: String
-    "Name of the artist"
-    biography: String
     "Biography of the artist"
+    biography: String
+    "List of artworks by the artist"
     artworks: [Artwork!]
   }
 
@@ -70,6 +71,9 @@ const typeDefs = gql`
   input CreateArtworkInput {
     title: String!
     description: String
+    price: Int
+    imageUrl: String
+    artistId: ID!
   }
 
   "Define response type for creating an artwork"
@@ -84,6 +88,8 @@ const typeDefs = gql`
   input UpdateArtworkInput {
     title: String
     description: String
+    price: Int
+    imageUrl: String
   }
 
   "Define response type for updating an artwork"
