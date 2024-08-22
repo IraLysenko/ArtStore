@@ -48,27 +48,11 @@
       "artistId": "2"
     },
     {
-      "id": "3",
-      "title": "The Boulevard Montmartre on a Winter Morning",
-      "description": "This painting captures the bustling activity of the Paris streets with the soft winter light filtering through the trees.",
-      "price": 950000,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/The_Boulevard_Montmartre_on_a_Winter_Morning.JPG/800px-The_Boulevard_Montmartre_on_a_Winter_Morning.JPG",
-      "artistId": "3"
-    },
-    {
       "id": "4",
       "title": "Impression, Sunrise",
       "description": "The painting that gave Impressionism its name, Monet's depiction of the Le Havre port is atmospheric and groundbreaking.",
       "price": 1100000,
       "imageUrl": "https://1.bp.blogspot.com/-hTNqZh7K9Mk/VMZfMMzemvI/AAAAAAAAEhQ/SBwJkc8JvXE/w1200-h630-p-k-no-nu/sunrise.jpg",
-      "artistId": "1"
-    },
-    {
-      "id": "5",
-      "title": "Garden at Sainte-Adresse",
-      "description": "Monet's 1867 work featuring a vibrant garden and the sea in the background, showcasing his early development of the Impressionist style.",
-      "price": 1200000,
-      "imageUrl": "https://travelmate.tech/media/images/cache/new_york_metropolitan_museum_of_art_06_terrazza_a_sainte_adresse_jpg_1920_1080_cover_70.jpg",
       "artistId": "1"
     },
     {
@@ -94,6 +78,14 @@
       "price": 925000,
       "imageUrl": "https://www.camillepissarro.org/assets/img/paintings/the-red-roofs-a-corner-of-a-village-winter-effect.jpg",
       "artistId": "3"
+    },
+    {
+      "id": "3876",
+      "title": "Test artwork",
+      "description": "Test artwork description",
+      "price": 5000,
+      "imageUrl": "https://live.staticflickr.com/65535/50623108398_01b8e355b1_c.jpg",
+      "artistId": "2"
     }
   ]
 }

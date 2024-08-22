@@ -26,7 +26,6 @@ const resolvers = {
       console.log("Input received:", input);
       try {
         const artistId = uuidv4(); // Generate a unique artistId
-
         const artwork = await dataSources.jsonServerAPI.postArtwork(input);
         const newArtwork = {
           ...artwork,
