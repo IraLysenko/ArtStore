@@ -6,8 +6,7 @@
       "biography": "Claude Monet was a French painter, a founder of French Impressionist painting and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature.",
       "artworks": [
         "1",
-        "4",
-        "5"
+        "4"
       ]
     },
     {
@@ -24,16 +23,20 @@
       "name": "Camille Pissarro",
       "biography": "A key Impressionist painter, Camille Pissarro was known for his landscapes and contributions to both Impressionism and Post-Impressionism.",
       "artworks": [
-        "3",
         "7",
         "8"
       ]
+    },
+    {
+      "id": "951e",
+      "name": "test artist",
+      "biography": "test bio"
     }
   ],
   "artworks": [
     {
       "id": "1",
-      "title": "Water Lilies 23",
+      "title": "Water Lilies",
       "description": "A series of approximately 250 oil paintings depicting Monet's flower garden at Giverny.",
       "price": 1000000,
       "imageUrl": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
@@ -41,11 +44,19 @@
     },
     {
       "id": "2",
-      "title": "Dance at Le Moulin de la Galette",
+      "title": "Dance at Le Moulin de la Galette 2",
       "description": "One of Impressionism's most celebrated masterpieces, depicting a lively outdoor scene in Montmartre.",
       "price": 800000,
       "imageUrl": "https://www.meisterdrucke.uk/kunstwerke/1260px/Pierre_Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_(MeisterDrucke-1466458).jpg",
       "artistId": "2"
+    },
+    {
+      "id": "3",
+      "title": "Olympia",
+      "description": "One of Manet's most famous paintings, causing controversy when first exhibited in 1865.",
+      "price": 1200000,
+      "imageUrl": "https://news.artnet.com/app/news-upload/2023/04/Edouard_Manet_-_Olympia_-_Google_Art_Project_3-1024x698.jpeg",
+      "artistId": "3"
     },
     {
       "id": "4",
@@ -78,14 +89,6 @@
       "price": 925000,
       "imageUrl": "https://www.camillepissarro.org/assets/img/paintings/the-red-roofs-a-corner-of-a-village-winter-effect.jpg",
       "artistId": "3"
-    },
-    {
-      "id": "3876",
-      "title": "Test artwork",
-      "description": "Test artwork description",
-      "price": 5000,
-      "imageUrl": "https://live.staticflickr.com/65535/50623108398_01b8e355b1_c.jpg",
-      "artistId": "2"
     }
   ]
 }
